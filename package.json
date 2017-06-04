@@ -7,5 +7,5 @@
   },
   "scripts": {
     "production": "pm2 stop d3;pm2 start index.js --name d3"
-  },
+  }
 }
