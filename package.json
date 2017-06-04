@@ -1,10 +1,8 @@
 {
   "name": "d3-learn",
-  "version": "0.0.1",
-  "scripts": {
-    "production": "pm2 stop d3;pm2 start index.js --name d3"
-  },
-  "dependencies": {
-    "express": "*"
+  "version": "0.1.1",
+  "devDependencies": {
+    "finalhandler": "^0.5.0",
+    "serve-static": "^1.11.1"
   }
 }
