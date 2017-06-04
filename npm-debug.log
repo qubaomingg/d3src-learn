@@ -1,0 +1,47 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/qubaoming/nvm/nvm/versions/node/v6.6.0/bin/node',
+1 verbose cli   '/Users/qubaoming/nvm/nvm/versions/node/v6.6.0/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'production' ]
+2 info using npm@3.10.3
+3 info using node@v6.6.0
+4 verbose run-script [ 'preproduction', 'production', 'postproduction' ]
+5 info lifecycle d3-learn@0.0.1~preproduction: d3-learn@0.0.1
+6 silly lifecycle d3-learn@0.0.1~preproduction: no script for preproduction, continuing
+7 info lifecycle d3-learn@0.0.1~production: d3-learn@0.0.1
+8 verbose lifecycle d3-learn@0.0.1~production: unsafe-perm in lifecycle true
+9 verbose lifecycle d3-learn@0.0.1~production: PATH: /Users/qubaoming/nvm/nvm/versions/node/v6.6.0/lib/node_modules/npm/bin/node-gyp-bin:/Users/qubaoming/Documents/d3src-learn/node_modules/.bin:/Users/qubaoming/nvm/nvm/versions/node/v6.6.0/bin:/Users/qubaoming/nvm/nvm/versions/node/v6.6.0/bin:/Users/qubaoming/Documents/ICBU/project/arc/arcanist/bin:/usr/local/lib/node_modules:/Users/qubaoming/.npm:/usr/local/mysql/bin:/usr/local/nginx/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+10 verbose lifecycle d3-learn@0.0.1~production: CWD: /Users/qubaoming/Documents/d3src-learn
+11 silly lifecycle d3-learn@0.0.1~production: Args: [ '-c', 'pm2 stop d3;pm2 start index.js --name d3' ]
+12 info lifecycle d3-learn@0.0.1~production: Failed to exec production script
+13 verbose stack Error: d3-learn@0.0.1 production: `pm2 stop d3;pm2 start index.js --name d3`
+13 verbose stack spawn ENOENT
+13 verbose stack     at ChildProcess.<anonymous> (/Users/qubaoming/nvm/nvm/versions/node/v6.6.0/lib/node_modules/npm/lib/utils/spawn.js:33:16)
+13 verbose stack     at emitTwo (events.js:106:13)
+13 verbose stack     at ChildProcess.emit (events.js:191:7)
+13 verbose stack     at maybeClose (internal/child_process.js:877:16)
+13 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
+14 verbose pkgid d3-learn@0.0.1
+15 verbose cwd /Users/qubaoming/Documents/d3src-learn
+16 error Darwin 14.5.0
+17 error argv "/Users/qubaoming/nvm/nvm/versions/node/v6.6.0/bin/node" "/Users/qubaoming/nvm/nvm/versions/node/v6.6.0/bin/npm" "run" "production"
+18 error node v6.6.0
+19 error npm  v3.10.3
+20 error file sh
+21 error code ELIFECYCLE
+22 error errno ENOENT
+23 error syscall spawn
+24 error d3-learn@0.0.1 production: `pm2 stop d3;pm2 start index.js --name d3`
+24 error spawn ENOENT
+25 error Failed at the d3-learn@0.0.1 production script 'pm2 stop d3;pm2 start index.js --name d3'.
+25 error Make sure you have the latest version of node.js and npm installed.
+25 error If you do, this is most likely a problem with the d3-learn package,
+25 error not with npm itself.
+25 error Tell the author that this fails on your system:
+25 error     pm2 stop d3;pm2 start index.js --name d3
+25 error You can get information on how to open an issue for this project with:
+25 error     npm bugs d3-learn
+25 error Or if that isn't available, you can get their info via:
+25 error     npm owner ls d3-learn
+25 error There is likely additional logging output above.
+26 verbose exit [ 1, true ]
